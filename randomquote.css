@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0a0ab;;
+}
+.container{
+    margin: 50px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+    align-items: center;
+    background-color: #ff0022;
+    font-family: "Poppins";
+    color: white;
+    border-radius: 20px;
+    box-shadow: 2px 5px 15px #0a0a0a;
+}
+.quote{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.quote p{
+    color: #ff0022;
+    font-size: small;
+    text-align: center;
+}
+.quote h2,h4{
+    color: #ff0022;
+    font-size: medium;
+    text-align: center;
+}
+.final{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+}
+.generate {
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #ff0022;
+    font-family: "Poppins";
+    width: 150px;
+    height: 35px;
+    transition: 0.33s;
+    cursor: pointer;
+}
+.generate:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.33s;
+}
+.copy{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #ff0022;
+    font-family: "Poppins";
+    width: 150px;
+    height: 35px;
+    transition: 0.33s;
+    cursor: pointer;
+}
+.copy:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.33s;
+}
